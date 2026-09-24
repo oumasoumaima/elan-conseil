@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import gsap from 'gsap';
 import './Hero.css';
 
-const HEADLINE = 'Avancez avec plus de clarté et de confiance.';
+const HEADLINE = 'Avancez avec plus de clarté, à votre rythme.';
 
 const Hero = () => {
   const headlineRef = useRef(null);
@@ -30,7 +30,7 @@ const Hero = () => {
     <section id="accueil" className="hero section">
       <div className="hero-container container">
         <div className="hero-content">
-          <div className="hero-badge fade-in-up">Un accompagnement personnalisé</div>
+          <div className="hero-badge fade-in-up">ACCOMPAGNEMENT & CONSEIL</div>
           <h1 ref={headlineRef} className="hero-headline">
             {words.map((word, i) => (
               <React.Fragment key={i}>
@@ -42,12 +42,11 @@ const Hero = () => {
             ))}
           </h1>
           <p className="fade-in-up delay-200">
-            Découvrez une approche sur mesure pour donner du sens à vos projets
-            et atteindre vos objectifs personnels et professionnels.
+            Un espace pour prendre du recul, faire le point et avancer sur les décisions qui comptent pour vous.
           </p>
           <div className="hero-actions fade-in-up delay-300">
             <a href="#services" className="btn btn-primary">
-              Découvrir mes services
+              Voir les accompagnements
               <div className="btn-icon-wrapper">
                 <ArrowRight size={18} strokeWidth={2} />
               </div>
@@ -57,7 +56,7 @@ const Hero = () => {
         </div>
         <div className="hero-image-wrapper fade-in-right delay-400">
           <img
-            src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1000&auto=format&fit=crop"
+            src="src/assets/hero.png"
             alt="Espace de travail inspirant avec carnet et café"
             className="hero-image"
             data-parallax="40"

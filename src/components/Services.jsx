@@ -5,23 +5,23 @@ import './Services.css';
 const services = [
   {
     icon: <Compass strokeWidth={1.5} size={28} />,
-    title: 'Orientation & choix',
-    description: "Vous aider à y voir plus clair dans vos options et à faire des choix alignés avec vos valeurs et vos objectifs."
+    title: 'Clarifier un choix',
+    description: "Vous hésitez entre plusieurs possibilités ? Nous prenons le temps de poser les options et d'identifier ce qui correspond réellement à votre situation."
   },
   {
     icon: <TrendingUp strokeWidth={1.5} size={28} />,
-    title: 'Évolution professionnelle',
-    description: "Vous accompagner dans vos projets de carrière, de reconversion ou de montée en compétences."
+    title: 'Faire évoluer votre projet',
+    description: "Réfléchir à une nouvelle direction professionnelle, une reconversion ou une évolution de votre parcours."
   },
   {
     icon: <RefreshCw strokeWidth={1.5} size={28} />,
-    title: 'Gestion du changement',
-    description: "Faire face aux transitions avec sérénité et construire une nouvelle étape en confiance."
+    title: 'Traverser une transition',
+    description: "Faire le point lors d'une période de changement et avancer étape par étape vers la suite."
   },
   {
     icon: <Target strokeWidth={1.5} size={28} />,
-    title: 'Organisation & objectifs',
-    description: "Clarifier vos priorités, gagner en structure et passer à l'action de manière concrète."
+    title: 'Passer de l\'idée à l\'action',
+    description: "Transformer une réflexion en objectifs concrets et définir les prochaines étapes."
   }
 ];
 

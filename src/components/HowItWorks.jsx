@@ -6,19 +6,19 @@ const HowItWorks = () => {
     {
       number: '01',
       title: 'Échange',
-      description: 'Une première rencontre pour faire connaissance, comprendre votre situation et définir vos attentes.',
-      image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop'
+      description: 'Un premier échange pour comprendre votre situation, vos questions et ce que vous souhaitez faire évoluer.',
+      image: 'src/assets/echange.jpg'
     },
     {
       number: '02',
       title: 'Analyse',
-      description: 'Un travail d\'introspection et d\'exploration pour identifier vos freins et vos ressources.',
+      description: 'Nous prenons le temps de mettre les choses à plat, d\'identifier vos priorités et les pistes possibles.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop'
     },
     {
       number: '03',
       title: 'Plan',
-      description: 'La co-construction d\'un plan d\'action concret pour avancer vers votre objectif.',
+      description: 'Vous repartez avec des prochaines étapes claires, réalistes et adaptées à votre situation.',
       image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000&auto=format&fit=crop'
     }
   ];

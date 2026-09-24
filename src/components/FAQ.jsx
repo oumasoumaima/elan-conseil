@@ -8,15 +8,15 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Combien de temps dure un accompagnement ?",
-      answer: "La durée varie selon vos objectifs. Un accompagnement standard s'étend généralement sur 3 à 6 mois, à raison d'une séance toutes les deux semaines."
+      answer: "Cela dépend de votre objectif et de votre rythme. Certaines personnes ont besoin de quelques échanges, d'autres préfèrent un accompagnement plus régulier."
     },
     {
       question: "Les séances peuvent-elles se faire en ligne ?",
-      answer: "Oui, les séances sont possibles en visioconférence ou en présentiel, selon vos préférences et vos contraintes géographiques."
+      answer: "Oui. Les échanges peuvent être réalisés à distance en visioconférence."
     },
     {
       question: "Comment se déroule la séance découverte ?",
-      answer: "C'est un échange de 45 minutes sans engagement. Il permet de faire connaissance, d'explorer votre demande et de valider que mon approche vous correspond."
+      answer: "Elle permet simplement de faire connaissance, de comprendre votre besoin et de voir ensemble si l'accompagnement proposé correspond à vos attentes."
     },
     {
       question: "Quels sont les moyens de paiement acceptés ?",
