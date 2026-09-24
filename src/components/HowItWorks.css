@@ -1,0 +1,118 @@
+.how-it-works {
+  background-color: var(--color-background);
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--space-md) 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-border), transparent);
+}
+
+.timeline-step {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: var(--space-xl);
+}
+
+.timeline-step:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content, .timeline-image-wrapper {
+  width: 50%;
+  padding: 0 var(--space-lg);
+}
+
+.step-left .timeline-content {
+  text-align: right;
+}
+
+.step-right {
+  flex-direction: row-reverse;
+}
+
+.step-right .timeline-content {
+  text-align: left;
+}
+
+.step-card {
+  background-color: var(--color-white);
+  padding: var(--space-md);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.step-card h3 {
+  margin-bottom: var(--space-xs);
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.step-card p {
+  color: #555;
+  margin-bottom: 0;
+}
+
+.step-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  filter: sepia(0.1) contrast(0.95);
+}
+
+@media (max-width: 900px) {
+  .timeline-line {
+    left: 24px;
+    transform: none;
+  }
+  
+  .timeline-dot {
+    left: 24px;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-step {
+    flex-direction: column !important;
+    align-items: flex-start;
+    padding-left: 60px;
+    gap: var(--space-md);
+  }
+  
+  .timeline-content, .timeline-image-wrapper {
+    width: 100%;
+    padding: 0;
+    text-align: left !important;
+  }
+}
