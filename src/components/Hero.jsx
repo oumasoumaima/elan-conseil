@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import gsap from 'gsap';
 import './Hero.css';
+import heroImage from '../assets/hero.png';
 
 const HEADLINE = 'Avancez avec plus de clarté, à votre rythme.';
 
@@ -56,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="hero-image-wrapper fade-in-right delay-400">
           <img
-            src="src/assets/hero.png"
+            src={heroImage}
             alt="Espace de travail inspirant avec carnet et café"
             className="hero-image"
             data-parallax="40"

@@ -1,5 +1,6 @@
 import React from 'react';
 import './HowItWorks.css';
+import echangeImg from '../assets/echange.jpg';
 
 const HowItWorks = () => {
   const steps = [
@@ -7,7 +8,7 @@ const HowItWorks = () => {
       number: '01',
       title: 'Échange',
       description: 'Un premier échange pour comprendre votre situation, vos questions et ce que vous souhaitez faire évoluer.',
-      image: 'src/assets/echange.jpg'
+      image: echangeImg
     },
     {
       number: '02',
