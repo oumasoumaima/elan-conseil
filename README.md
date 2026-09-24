@@ -13,26 +13,29 @@ Site vitrine pour ÉLAN, accompagnement personnalisé (coaching orientation, év
 - **CSS natif** — pas de framework CSS, variables CSS pour la charte graphique (couleurs, typographies, espacements)
 
 ## Structure du projet
+
+```
 src/
 ├── components/
-│ ├── Header.jsx / .css # Navigation fixe + menu mobile
-│ ├── Hero.jsx / .css # Titre animé mot par mot + image en parallaxe
-│ ├── Services.jsx / .css # Carrousel centré (carte active + voisines floutées)
-│ ├── HowItWorks.jsx / .css # Timeline du processus d'accompagnement
-│ ├── QuoteInterlude.jsx # Citation d'interlude
-│ ├── Testimonials.jsx / .css # Grille d'avis clients avec avatars
-│ ├── Pricing.jsx / .css # Grille tarifaire
-│ ├── FAQ.jsx / .css # Accordéon de questions fréquentes
-│ ├── Contact.jsx / .css # Formulaire / bloc contact
-│ ├── Footer.jsx / .css # Pied de page
-│ └── Cursor.jsx / .css # Curseur personnalisé (désactivé sur mobile/tactile)
+│   ├── Header.jsx / .css        # Navigation fixe + menu mobile
+│   ├── Hero.jsx / .css          # Titre animé mot par mot + image en parallaxe
+│   ├── Services.jsx / .css      # Carrousel centré (carte active + voisines floutées)
+│   ├── HowItWorks.jsx / .css    # Timeline du processus d'accompagnement
+│   ├── QuoteInterlude.jsx       # Citation d'interlude
+│   ├── Testimonials.jsx / .css  # Grille d'avis clients avec avatars
+│   ├── Pricing.jsx / .css       # Grille tarifaire
+│   ├── FAQ.jsx / .css           # Accordéon de questions fréquentes
+│   ├── Contact.jsx / .css       # Formulaire / bloc contact
+│   ├── Footer.jsx / .css        # Pied de page
+│   └── Cursor.jsx / .css        # Curseur personnalisé (désactivé sur mobile/tactile)
 ├── hooks/
-│ ├── useScrollReveal.js # Révélations au scroll (fade + flou) via GSAP ScrollTrigger
-│ ├── useLenis.js # Initialise le smooth scroll et le lie à GSAP
-│ └── useMagnetic.js # Effet magnétique sur les boutons (.btn)
-├── App.jsx # Assemble les sections + branche les hooks globaux
-├── index.css # Variables CSS globales (couleurs, typographie, espacements)
-└── main.jsx # Point d'entrée React
+│   ├── useScrollReveal.js       # Révélations au scroll (fade + flou) via GSAP ScrollTrigger
+│   ├── useLenis.js              # Initialise le smooth scroll et le lie à GSAP
+│   └── useMagnetic.js           # Effet magnétique sur les boutons (.btn)
+├── App.jsx                      # Assemble les sections + branche les hooks globaux
+├── index.css                    # Variables CSS globales (couleurs, typographie, espacements)
+└── main.jsx                     # Point d'entrée React
+```
 
 
 ## Installation
